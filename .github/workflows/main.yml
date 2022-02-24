@@ -1,2 +1,3 @@
-- name: OWASP ZAP Baseline Scan
-  uses: zaproxy/action-baseline@v0.6.1
+steps:
+    - name: OWASP ZAP Baseline Scan
+    uses: zaproxy/action-baseline@v0.6.1
